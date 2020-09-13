@@ -1,1 +1,48 @@
 this is chapter2
+
+
+local machine git commands
+------------------------------
+
+1) git config
+Usage: git config –global user.name “[name]”  
+
+Usage: git config –global user.email “[email address]”  
+
+This command sets the author name and email address respectively to be used with your commits.
+
+
+eg. git config --global user.name "Amol"
+    git config --global user.email "amol@gmail.com"
+
+2)git init
+
+3)git status =which showing untracking file
+
+4)git add chapter2.txt
+5)git status
+
+6)after that file ready for commit
+7)git commit -m "Complete Chapter1 "
+8)git log 
+9)git diff chapter3.txt
+
+10)git checkout chapter3.txt = for restored preview data into file 
+--------------------------
+11) git remote add origin https://github.com/Amol246/Story.git
+12) git push -u origin master 
+
+--------
+touch .gitignore
+
+open .gitignore
+git init
+git add .
+git status
+git rm --cached -r. = remove all file from staging area
+git status
+------------
+
+git clone path
+
+------
